@@ -1,0 +1,12 @@
+{
+    "terminal.integrated.profiles.linux": {
+      "conda-meeting": {
+        "path": "bash",
+        "args": ["-c", "conda activate meeting-assistant && exec bash"]
+      }
+    },
+    "terminal.integrated.defaultProfile.linux": "conda-meeting",
+    "python.defaultInterpreterPath": "/home/ddrhx/miniconda3/envs/meeting-assistant/bin/python",
+    "python.terminal.activateEnvironment": true       // 可选，双保险
+  }
+  
